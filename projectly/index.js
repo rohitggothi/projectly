@@ -2,7 +2,7 @@
 
 function subfoot() {
     $.ajax({
-        url: 'https://api.apispreadsheets.com/data/OPP3r5ntod2Ay9Fn/',
+        url: 'https://api.apispreadsheets.com/data/OPP3r5nt34322Ay9Fn/',
         type: 'post',
         data: $("#footform").serializeArray(),
         success: function () {
