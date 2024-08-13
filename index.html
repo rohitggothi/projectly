@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="college projects,engineering projects,computer science projects,web project, android project,rohit gothi,cse,final year projects,free computer science projects,free projects,free projects bhopal,java projects,python projects,html project,css project,javascript project,website builder,project builder chat gtp,website maker with ai,project report generator,genrate project report,">
+	<meta name="description" content="We Provides real time projects,project files,project reports to college students.We make Computer Science projects for college students and bussiness solutions.">
+	<meta name="author" content="Rohit Gothi">
+	<title>Project-Ly</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<script src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script src="index.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+		integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="icon" type="image/png" href="/images/logo.webp">
+    
+
+</head>
+
+<body>
+    
+	<div id="container">
+		<nav>
+			<img src="images/logo.webp">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#team">Team</a></li>
+				<li><a href="#contact">Contact</a></li>
+
+			</ul>
+		</nav>
+		
+
+		
+		<header>
+			<div class="left">
+				<h1>Project LY is your digital friend !!!</h1>
+				<br>
+				<h3>We make relations,not clients!!</h3>
+				<br>
+				<a href="projects.html">Explore More</a>
+			</div>
+			<div class="right">
+				<img src="images/header.webp">
+			</div>
+		</header>
+<!-- third -->
+
+		<section id="about">
+			<div class="about">
+				<h1>About Us</h1>
+				<video id="background-video" autoplay loop muted>
+					<source src="images/about-bg.mp4" type="video/mp4">
+				</video>
+				<div class="about-txt">
+					<p>In today’s highly competitive world, organizations across all sectors are turning to IT
+						service
+						providers to help them reduce costs, boost productivity and enhance performance. As a
+						world-class
+						end-to-end IT services provider, with over 2 years’ experience working with organizations
+						from all
+						sectors around the Madhya Pradesh, Project-LY can provide the business IT solutions you need
+						to
+						improve
+						efficiency, add value and lower costs.
+						We design, develop, implement, manage and optimize access to systems and information to
+						answer your
+						business processing, application and development needs. Whether you are a private or public
+						sector organization, or whether you want to run our solutions on your own hardware, or
+						outsource
+						your IT through us, Project-Ly has the expertise you need to overcome the IT challenges you
+						face....
+					</p>
+				</div>
+		</section>
+		
+		
+		<section id="services">
+			<h1>Our Services</h1>
+			<h3>Click on given respective box for Projects</h3>
+			<div class="serv">
+				<div class="our" onclick="android();">
+					<img src="images/android.webp" class="bounce">
+					<h2>Android Projects</h2>
+					<h5>We provide most affordable Android Project. It is the process by which applications are
+						created for devices
+						running the Android operating system</h5>
+				</div>
+				<div class="our" onclick="web();">
+					<img src="images/webd.webp" class="bounce" style="margin-top:-180px;">
+					<h2 style="margin-top: 40px;">Web Projects</h2>
+					<h5>We provide most affordable Web Projects . Web development is the work involved in developing a
+						website for the Internet (World Wide Web) or an intranet.</h5>
+				</div>
+				<div class="our" onclick="uiux();">
+					<img src="images/uiux.webp" class="bounce" style="margin-top:-105px;">
+					<h2>UI / UX Projects</h2>
+					<h5>We provide most affordable UI/UX Project. User experience design (UX design, UXD, UED, or XD) is
+						the process of defining the experience of user interface and graphics.</h5>
+				</div>
+			</div>
+		</section>
+
+		<section id="teamm">
+			<div class="investor">
+				<h1>Our Clients</h1>
+				<h2>We provide our services to this companies!!</h2>
+				<div class="invest ">
+					<div class="client" onclick="trigent();">
+						<img src="images/trigent.webp" style="margin-bottom: 40px;">
+						<h2>Tringent Soft-techs</h2>
+					</div>
+					<div class="client" onclick="esko();">
+						<img src="images/logo-esko.webp" style="margin-bottom: 50px;">
+						<h2>Esko Technologies</h2>
+					</div>
+					<div class="client" onclick="impect();">
+						<img src="images/impectsoft-logo.webp" style="margin-bottom: 30px;">
+						<h2>The Digital Group</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="contact">
+			<div class="contact">
+				<h1>Book Your Project Now!!!</h1>
+				<form action="default.php" class="message-form" id="myForm" method="post">
+					<input type="text" placeholder="Name" id="name" name="name" required>
+					<input type="text" placeholder="Phone Number" id="number" name="num" required>
+					<input type="email" placeholder="Email" id="email" name="email" required>
+					<input type="text" placeholder="Project Name" id="pronm" name="pro" required>
+					<textarea class="message-bt" placeholder="Project Description" id="msg" name="msg"
+						required></textarea><br>
+					<button class="message-btn" type="submit">SEND</button>
+				</form>
+			</div>
+		</section>
+		
+		<section id="team">
+			<h1>Our Team</h1>
+			<div class="owner">
+				<div class="team" onclick="ashish();">
+					<img src="images/abhi.webp">
+					<h2>Ashish Patel</h2>
+					<h5>Co-Founder</h5>
+				</div>
+				<div class="team" onclick="rohit();">
+					<img src="images/founder.webp">
+					<h2>Rohit Gothi</h2>
+					<h5>Founder</h5>
+				</div>
+				<div class="team" onclick="abhi();">
+					<img src="images/abhi.webp">
+					<h2>Abhishek Parmar</h2>
+					<h5>Co-Founder</h5>
+				</div>
+			</div>
+		</section>
+		
+
+		<footer id="footer">
+			<form class="form-foot" id="footform">
+				<input type="email" placeholder="Email" id="emaill" name="emaill" required><br>
+				<button class="message" type="button" onclick="subfoot();" id="btn-sub">Subscribe</button>
+			</form><br><br>
+			<div class="links">
+				<a href="https://www.instagram.com/project__ly/"><i class="fa-brands fa-instagram"></i></a><br>
+				<br>
+				<h3>&copy; 2023 Project-LY Bhopal,India,Inc.All right reserved</h3>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
