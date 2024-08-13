@@ -7,7 +7,7 @@ $pro = $_POST['pro'];
 $msg = $_POST['msg'];
 
 // database connection here
-$conn = new mysqli('127.0.0.1:3306', 'u297834118_projectly', 'Rokie123@', 'u297834118_projectly');
+$conn = new mysqli('localhost', 'root', '', 'projectly');
 if ($conn->connect_error) {
     die('connection failed : ' . $conn->connect_error);
 } else {
